@@ -8,7 +8,7 @@ npm i vue-text-scramble-animation
 
 ## Demo
 
-![Word Scr4mbler Demo](public/demo.gif)
+![Word Scr4mbler Demo](https://github.com/p4s3r0/vue-text-scramble-animation/blob/main/public/demo.gif?raw=true)
 
 ## Quick Start
 
@@ -37,7 +37,7 @@ You are now able to use it.
 | `init`                | String  | The Text we start from      | `Scra-mBlErWord` |
 | `switchSpeed`         | Number  | Interval in ms of scramble  | `50` |
 | `unscrambleTime`      | Number  | The time between scramblinf and finalizing stage | `5` |
-| `scramble_character`  | String  | A string of characters to which we can scramble | `ABCDEFGHIJKLMNOPQRSTUVXYZ0123456789#+;-` |
+| `scramble_character`  | String  | A string of characters to which we can scramble | `ABCDEFGHIJKLM NOPQRSTUVXYZ012345 6789#+;-` |
 | `animationType`       | String  | Finalizing Stage unscramble from left to right ('`linear`') or random (`random`)| `random` |
 
 ### Text Styling

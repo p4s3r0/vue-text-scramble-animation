@@ -1,12 +1,14 @@
 {
   "name": "word-scr4mbler",
-  "version": "0.1.1",
+  "version": "0.1.6",
   "main": "dist/word-scr4mbler.common.js",
   "files": ["dist/*", "*.js", "*.json"],
   "private": false,
-  "publishConfig": {
-    "registry": "https://github.com/p4s3r0/vue-text-scramble-animation"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p4s3r0/vue-text-scramble-animation"
   },
+  "keywords": ["vue3", "animation", "text-animation"],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name word-scr4mbler ./src/components/WordScr4mbler.vue",
